@@ -1,0 +1,63 @@
+#brand {
+   display: inline-block;
+}
+
+#brand img {
+   width: 7vh;
+   height: 7vh; 
+}
+
+#brand > div {
+    display: inline-block;
+}
+
+#headname {
+    height: 5vh;
+}
+
+#brand h1 {
+   font-size: 2em;
+   margin: 0 0 2vh 2vw;
+}
+
+nav {
+    padding: 0 1em;
+}
+
+#nav-menu {
+   display: inline-block;
+   float: right;
+} 
+
+#nav-menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#nav-menu ul li{
+    display: inline-block;
+    margin-left: 2em;   
+}
+
+#nav-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+#backgroundimage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+
+}
+
+#backgroundimage img{
+    width: 100%;
+        
+}
+
+#content p {
+    width: 45%;
+}
