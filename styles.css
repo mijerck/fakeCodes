@@ -3,13 +3,15 @@
 }
 
 #brand img {
-   width: 7vh;
-   height: 7vh; 
+   width: 6vh;
+   height: 6vh; 
 }
 
 #brand > div {
     display: inline-block;
 }
+
+
 
 #headname {
     height: 5vh;
@@ -60,4 +62,68 @@ nav {
 
 #content p {
     width: 45%;
+}
+
+#content {
+    margin-left: 3em;
+}
+
+#content div {
+    margin: 2em 3em;
+}
+
+#morebtn {
+    background-color: white;
+    color: black;
+    border: 2px solid#12c5db;
+    border-radius: 5px; 
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 32px;
+    text-decoration: none;
+}
+
+#morebtn:hover {
+    background-color: #12c5db;
+    color: white;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    width: 800px;
+    text-align: center;
+}
+
+.card {
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: lightcyan;
+}
+
+
+.card #caption{
+    font-style: italic;
+    font-size: 18px;
+    padding-bottom: 3em;
+    color: #14b7cc;
+    
+}
+
+.card #profile {
+    padding: 3em 2em;
+}
+
+.owerwork #row1 {
+    display: inline-block;
+}
+#row2 {
+    display: block;
+}
+
+img {
+    width: 200px;
+    height: 200px;
 }
